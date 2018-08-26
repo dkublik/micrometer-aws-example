@@ -29,7 +29,7 @@ ext {
 }
 
 dependencies {
-	compile('org.springframework.boot:spring-boot-starter-web')
+    compile('org.springframework.boot:spring-boot-starter-web')
     compile('org.springframework.boot:spring-boot-starter-actuator')
     compile('org.springframework.cloud:spring-cloud-starter-aws')
     compile('io.micrometer:micrometer-registry-cloudwatch:1.0.6')
