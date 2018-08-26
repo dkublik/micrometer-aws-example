@@ -16,7 +16,7 @@ class LuckyNumbersController {
     private final AtomicInteger currentLucky;
 
     LuckyNumbersController(MeterRegistry meterRegistry) {
-        currentLucky = meterRegistry.gauge("currentLucky", new AtomicInteger(0));
+        currentLucky = meterRegistry.gauge("luckies.current", new AtomicInteger(0));
     }
 
     @GetMapping
