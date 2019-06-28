@@ -1,7 +1,7 @@
 Micrometer Aws Example
 ===============
 
-code example for http://dkublik.github.io/springboot-metrics-with-micrometer-and-aws-cloudwatch/
+code example for https://dkublik.github.io/2018/08/26/springboot-metrics-with-micrometer-and-aws-cloudwatch.html
 
 
 ## Requirements
